@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Telegram Web</title>
+        <link href="Telegram.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="image">
+                <a href="https://telegram.org/"><img src=tlga.png><a>
+            </a></div>
+                <a href="https://telegram.org/">Telegram</a>
+                <a href="">Next</a>
+        </header>
+        <main>
+            <div class="forminput">
+                <form action="">
+                <h1>Sign in</h1>
+                <p>Please choose your country and enter your full phone number.</p>
+                <label for="Country">Country</label>
+                <div>
+                    <select id="country" >
+                        <option>Kazakhstan</option>
+                        <option>Russia</option>
+                        <option>USA</option>
+                    </select>
+                </div>
+                <label for="Telephone">Code</label>
+                <div>
+                    <input type="text" value="+7 7">
+                    <input type="tel" name="phone" placeholder="Telephone"  pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" minlength="18" maxlength="18" />
+            </div>
+        </div> 
+        <div class="info">
+            <p>Welcome to the official Telegram web-client.</p>
+            <details open="open">
+                <summary>Learn more</summary>
+                <p>The Telegram web-client is a free, fast and secure way to enjoy most of <b>Telegram</b>'s features right in your <b>web-browser</b>.
+
+                    It is always synced with the <b>Telegram app</b> on your mobile device, which makes it a perfect tool for messaging and file sharing.
+                                                       
+                    Our <a href="https://github.com/zhukov/webogram">source code</a> is open, so everyone can make a contribution.</p>
+            </details>
+            </div>
+        </main>
+    </body>
+</html>

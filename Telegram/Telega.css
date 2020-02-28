@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+.header{
+    background-color: blue;
+    height: 10%;
+}
+.forminput{
+    margin-left: 40%;
+}

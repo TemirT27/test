@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+}
+header{
+    background-color: dodgerblue;
+    height: 15%;
+}
+.forminput{
+    background-color: ghostwhite;
+    
+}
